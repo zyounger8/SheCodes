@@ -4,10 +4,66 @@ body {
   justify-content: center;
 }
 
-span {
-  font-size: 20px;
+.first-emoji {
+  font-size: 35px;
+}
+
+h1 {
+  color: rgb(51, 101, 207)
+}
+
+.top-temp {
+  font-size: 18px;
+}
+
+.top {
+  text-align: center;
+}
+
+.tomorrow {
+  border: none;
+  margin: none;
+  padding: 2px;
+  text-align: center;
+}
+.saturday {
+    border: none;
+  margin: none;
+  padding: 2px;
+    text-align: center;
+}
+.sunday {
+    border: none;
+  margin: none;
+  padding: 2px;
+    text-align: center;
 }
 
 .tomorrow:hover {
   background-color: yellow;
+}
+.saturday:hover {
+  background-color: yellow;
+}
+.sunday:hover {
+  background-color: yellow;
+}
+
+.citybtn {
+padding: 15px 10px 15px 10px;
+border-radius: 40%;
+margin-top: 20px;
+background-color: rgb(51, 101, 207);
+color: white;
+border-color: rgb(51, 101, 207);
+}
+
+.citybtn:hover {
+background-color: white;
+color: rgb(51, 101, 207);
+border-color: rgb(51, 101, 207);
+}
+
+.btmtxt {
+  text-align: center;
 }
